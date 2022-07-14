@@ -84,6 +84,16 @@ function App() {
           <a href="https://learnings12654600.blogspot.com/2019/12/">MADE BY JAYESH</a>
         </div>
       </div>
+      <div>
+        <footer className="footer">
+          <div className="social">
+                <a href="https://twitter.com/">Twitter</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.youtube.com/">YouTube</a>
+          </div>
+        </footer>
+      </div>
       </div>
       );
 }
