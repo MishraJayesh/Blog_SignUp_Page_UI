@@ -10,9 +10,9 @@ function App({ count, myName, decreaseFunction, incrementFunction, reset }) {
       <button onClick={() => decreaseFunction()}>DEC</button>
       <button onClick={() => reset()}>RESET</button>
       <button onClick={() => incrementFunction()}>INC</button>
-      <h1>Hello CodeSandbox</h1>
+      <h1>Hello World</h1>
       {myName}
-      <h2>Start editing to see some magic happen!</h2>
+      <h2>Start Counter</h2>
     </div>
   );
 }

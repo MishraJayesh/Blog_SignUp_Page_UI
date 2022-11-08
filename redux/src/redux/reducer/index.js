@@ -20,7 +20,7 @@ const countReducer = (state = initialState, action) => {
         case RESET:
             return {
                 ...state,
-                count: 10
+                count: 0
             };
         default:
             return state;
