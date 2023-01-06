@@ -1,10 +1,10 @@
 import React from 'react';
-import {Route,Routes} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Homepage from '../pages/webpage';
 import Login from '../pages/login';
 
 export default function Routing() {
-    return(
+    return (
 
         <Routes>
             <Route exact path="/" element={<Login />} />

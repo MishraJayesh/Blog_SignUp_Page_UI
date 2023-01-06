@@ -58,14 +58,14 @@ export default function Homepage() {
             </li>
           </ul>
         </nav>
-      <div className="topbar">
-        <nav className="navMenu">
-          <a href="http://localhost:3000/">Login</a>
-          <a href="https://www.newsonline.media/articles/happy-guru-purnima-wishes-quotes-images-messages/">About</a>
-          <a href="https://www.tv9marathi.com/spiritual-adhyatmik/guru-purnima-2022-vyas-jayanti-muhurat-and-importance-au189-740457.html">Review</a>
-          <a href="https://www.thefestivalwishes.com/p/write-name-on-guru-purnima-wishes-quotes-in-english">FAQs</a>
-        </nav>
-      </div>
+        <div className="topbar">
+          <nav className="navMenu">
+            <a href="http://localhost:3000/">Login</a>
+            <a href="https://www.newsonline.media/articles/happy-guru-purnima-wishes-quotes-images-messages/">About</a>
+            <a href="https://www.tv9marathi.com/spiritual-adhyatmik/guru-purnima-2022-vyas-jayanti-muhurat-and-importance-au189-740457.html">Review</a>
+            <a href="https://www.thefestivalwishes.com/p/write-name-on-guru-purnima-wishes-quotes-in-english">FAQs</a>
+          </nav>
+        </div>
         <div className="container">
           <div className="brand-title">JUST BLOGS...</div>
           <div className="inputs">
@@ -87,13 +87,13 @@ export default function Homepage() {
       <div>
         <footer className="footer">
           <div className="social">
-                <a href="https://twitter.com/">Twitter</a>
-                <a href="https://www.facebook.com/">Facebook</a>
-                <a href="https://www.instagram.com/">Instagram</a>
-                <a href="https://www.youtube.com/">YouTube</a>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.youtube.com/">YouTube</a>
           </div>
         </footer>
       </div>
-      </div>
-      );
+    </div>
+  );
 }
